@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="gotov.css" />
+  <title>Готов ли си?</title>
+  <meta name="viewport"
+  content="width=device-width,
+  initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <div class="top-bar">
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      </div>
+      <div class="menu" id="menu">
+      <a href="index.html">Начало</a>
+      <a href="istoriq.html">История</a>
+      <a href="budeshte.html">Ние и космосът в бъдещето</a>
+      <a href="bulgariq.html">Българската следа</a>
+      <a href="riskove.html">Често задавани въпроси</a>
+      <a href="facti.html">Интересни факти</a>
+      <a href="gotov.html">Готов ли си?</a>
+      <a href="contacti.html">Контакти</a>
+    </div>
+    </nav>
+    <header class="hero">
+      <h1>Готов ли си?</h1>
+    </header>
+ <div class="fon">
+      <h2 class="mission-title">🚀Изпит по теория за кандидат-космонавти</h2>
+    <h3 class="prem">Изпитът се смята за преминат при поне 7/10 — имате право на повторение</h3>
+     <div class="quiz" id="quizBox">
+<button id="startQuizBtn" onclick="startQuiz()">
+СТАРТ НА ИЗПИТА
+       </button>
+<h2 id="broi"></h2>
+<h3 id="timer">⏱ 13</h3>
+<h1 id="vapros"></h1>
+
+<div class="otgovori">
+  <button class="otgovor-btn" id="btn0" onclick="proveri(0)"></button>
+  <button class="otgovor-btn" id="btn1" onclick="proveri(1)"></button>
+  <button class="otgovor-btn" id="btn2" onclick="proveri(2)"></button>
+  <button class="otgovor-btn" id="btn3" onclick="proveri(3)"></button>
+</div>
+
+<p id="status"></p>
+
+<h3 id="tochki">Точки: 0</h3>
+
+      </div>
+      
+      <div class="mission-game">
+
+<h2 class="mission-title">
+🚀 Практически изпит за кандидат-космонавт
+</h2>
+<h3 class="prem">Изпитът се смята за преминат при 10/10 — имате право на повторение</h3>
+<button id="startBtn" onclick="startMission()">
+СТАРТ НА ИЗПИТА
+</button>
+
+<div id="missionContent" style="display:none;">
+
+<div class="hud">
+
+<div class="hud-box">
+❤️
+<span id="mission-lives">3</span>
+</div>
+
+<div class="hud-box">
+⛽
+<span id="mission-oxygen">100</span>
+</div>
+
+<div class="hud-box">
+🚀
+<span id="mission-progress">0</span>
+</div>
+
+<div class="hud-box">
+⏱
+<span id="mission-time">13</span>
+</div>
+
+</div>
+
+<div class="rocket-area">
+
+<div class="stars"></div>
+
+<div class="rocket" id="rocket">
+🚀
+</div>
+
+</div>
+
+<h2 id="mission-question"></h2>
+
+<div id="mission-answers"></div>
+
+<p id="mission-status"></p>
+
+<button id="restartBtn"
+onclick="restartMission()"
+style="display:none;">
+ОПИТАЙ ПАК
+</button>
+
+</div>
+
+</div>
+    </div>
+    <footer class="dolu">
+    <h2>„По-добре разберете нещо: Вселената никога не предлага нещо безплатно. На това ще има цена. Винаги има.” — Кей Хупър</h2>
+    </footer>    
+    <script src="gotov.js"></script>
+</body>
+</html>
