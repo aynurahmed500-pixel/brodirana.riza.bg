@@ -380,3 +380,16 @@ body {
   margin: 0;
   padding: 0 10px;
 }
+
+@media (max-width:599px){
+.text{
+  font-size:17px;
+  padding-left:15px;
+  padding-right:15px;
+  line-height:2;
+}
+{
+  font-size:17px;
+  line-height:2;
+}
+}
