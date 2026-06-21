@@ -393,3 +393,15 @@ body {
   line-height:2;
 }
 }
+@media (min-width: 600px){
+.text{
+  position: relative;
+  font-size: clamp(24px, 1.4vw, 34px);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+li {
+  font-size:clamp(24px,1.4vw,34px);
+}
+#purvi { padding-top:50px; }
+}
