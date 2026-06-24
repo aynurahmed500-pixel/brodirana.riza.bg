@@ -406,6 +406,9 @@ li {
 #purvi { padding-top:50px; }
 }
 
+
+
+
 .map-window {
   width: 700px;
   height: 450px;
@@ -470,4 +473,18 @@ li {
 
 .controls button {
   margin: 2px;
+}
+
+
+
+@media (max-width: 600px) {
+  .map-window {
+    width: 100%;
+    height: 300px;
+  }
+
+  .city {
+    width: 18px;
+    height: 18px;
+  }
 }
