@@ -34,7 +34,8 @@ nav {
   background-position: center;
   position:relative;
   border: 1px;
-  border-color:black;
+  border-style: solid;
+  border-color: black;
 }
 
 @media (min-width: 600px) {
