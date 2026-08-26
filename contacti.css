@@ -2,9 +2,7 @@ body, nav, header{
   background: white;
   font-family: "Times New Roman", Times, serif;
 }
-body {
-  margin:0;
-}
+
 nav {
   position: relative;
   text-align: center;
@@ -14,13 +12,14 @@ nav {
 /*Заглавна снимка на телефон*/
 
 .hero {
-  height: 300px;
+  height: 360px;
   width: 100%;
   background-image: url(https://i.imgur.com/tsli7hl.png);
   background-size: cover;
   background-position: center;
   position:relative;
   margin-top: 60px;
+  border: 1px solid black;
 }
 
 /*Заглавна снимка на компютър*/
