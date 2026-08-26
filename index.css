@@ -30,9 +30,7 @@ nav {
   background-size: cover;
   background-position: center;
   position:relative;
-  border: 1px;
-  border-style: solid;
-  border-color: black;
+  border: 1px solid black;
   margin-top:60px;
 }
 
