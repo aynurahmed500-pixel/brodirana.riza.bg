@@ -356,7 +356,7 @@ li {
 
 .search-box {
   flex: 9;
-  position: center;
+  position: left center;
 }
 
 
