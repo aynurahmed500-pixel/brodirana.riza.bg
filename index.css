@@ -105,7 +105,7 @@ nav {
     position: relative;
     top: 12px;
     left: 15px;
-    flex:3;
+    flex:1;
     font-size: 28px;
     cursor: pointer;
 
@@ -359,8 +359,12 @@ li {
 }
   
 .search-box {
-  flex: 7;
-  position: fixed;
+  flex: 8;
+  position: relative;
 }
-
+.surce {
+  flex: 1;
+  position: relative;
+  font-size: 28px;
+}
 
