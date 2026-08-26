@@ -4,8 +4,6 @@ font-family: "Times New Roman", Times, serif;
 }
 
 nav {
-margin:0;
-padding:0;
 position: relative;
 text-align: center;
 width: 100%;
@@ -13,7 +11,7 @@ width: 100%;
 
 /* Заглавна снимка на телефон */
 .hero {
-height: 300px;
+height: 360px;
 width: 100%;
 margin: 0;
 background-image: url(https://i.imgur.com/rWwRVPJ.png);
