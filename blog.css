@@ -1,5 +1,4 @@
 body, nav, header{
-  margin: 0;
   background: white;
   font-family: "Times New Roman", Times, serif;
 }
@@ -12,13 +11,14 @@ nav {
 
 /* HERO */
 .hero {
-  height: 300px;
+  height: 360px;
   width: 100%;
   background-image: url(https://i.imgur.com/tAWtP5w.png);
   background-size: cover;
   background-position: center;
   position: relative;
   margin-top: 60px;
+  border: 1px solid black;
 }
 
 
