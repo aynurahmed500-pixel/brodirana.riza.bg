@@ -105,7 +105,7 @@ nav {
     position: fixed;
     top: 12px;
     left: 15px;
-
+flex:1;
     font-size: 28px;
     cursor: pointer;
 
@@ -236,60 +236,6 @@ nav {
 
 }
 
-/* =======================
-   BACKGROUND PATTERN
-======================= */
-@media (max-width:599px){
-
-.fon{
-  position: relative;
-}
-
-.fon::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  background-image: url("https://uploads.onecompiler.io/44mzetgvy/44nd8qnqb/1000023623.jpg");
-  background-repeat: repeat;
-  background-size:300px;
-
-  pointer-events: none;
-  z-index: 0;
-}
-
-.fon > *{
-  position: relative;
-  z-index: 1;
-}
-
-}
-
-@media (min-width:600px){
-
-.fon{
-  position: relative;
-}
-
-.fon::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  background-image: url("https://uploads.onecompiler.io/44mzetgvy/44nd8qnqb/1000023623.jpg");
-  background-repeat: repeat;
-  background-size:450px;
-
-  pointer-events: none;
-  z-index: 0;
-}
-
-.fon > *{
-  position: relative;
-  z-index: 1;
-}
-
-}
 
 /* =======================
    FOOTER
@@ -408,5 +354,9 @@ li {
 }
 
 
+.search-box {
+  flex: 9;
+  position: center;
+}
 
 
