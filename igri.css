@@ -12,11 +12,8 @@ body, nav,header {
   background: white;
   font-family: "Times New Roman", Times, serif;
 }
-body {
-  margin:0;
-  }
+
 nav {
-  padding:0;
   position: relative;
   text-align: center;
   width: 100%;
@@ -25,7 +22,7 @@ nav {
 /*Заглавна снимка на телефон*/
 
 .hero {
-  height: 300px;
+  height: 360px;
   width: 100%;
   margin: 0;
   background-image: url(https://i.imgur.com/fLtCPeC.png);
@@ -33,6 +30,7 @@ nav {
   background-position: center;
   position:relative;
   margin-top: 60px;
+  border: 1px solid black;
 }
 
 /*Заглавна снимка на компютър*/
