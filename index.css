@@ -101,8 +101,7 @@ nav {
 
   .menu-icon {
     position: relative;
-    top: 12px;
-    left: 15px;
+    position: center;
     flex:1;
     font-size: 28px;
     cursor: pointer;
