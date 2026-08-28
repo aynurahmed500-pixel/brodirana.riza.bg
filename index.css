@@ -356,7 +356,7 @@ li {
 }
   
 .search-box {
-  flex: 8;
+  flex: 6;
   position: relative;
 }
 .lyubimi {
@@ -365,4 +365,16 @@ li {
   font-size: 28px;
   position: center;
 }
-
+.pazaruvane {
+position: relative;
+flex: 1;
+height: 50px;
+  
+.profil {
+position: relative;
+flex: 1;
+height: 50;
+}
+  img {
+    height: 100%;
+  }
