@@ -429,15 +429,42 @@ font-size: clamp(24px,1.5vw,34px);
 }
 
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0 10px;
-}
-
 p {
   text-decoration: none;
 }
+
+.top-bar {
+  display: flex;
+  align-items: center;
+}
+  
+.search-box {
+  flex: 6;
+  position: relative;
+}
+.lyubimi {
+  flex: 1;
+  position: relative;
+  font-size: 28px;
+  position: center;
+}
+.pazaruvane {
+position: relative;
+flex: 1;
+height: 50px;
+  }
+.profil {
+position: relative;
+flex: 1;
+height: 50px;
+}
+.kolichka {
+height: 30px;
+position: center;
+}
+
+.ikona {
+height: 30px;
+position: center;
+}
+
