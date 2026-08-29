@@ -323,3 +323,39 @@ li {
   flex-direction: row-reverse;
 }
 }
+
+.top-bar {
+  display: flex;
+  align-items: center;
+}
+  
+.search-box {
+  flex: 6;
+  position: relative;
+}
+.lyubimi {
+  flex: 1;
+  position: relative;
+  font-size: 28px;
+  position: center;
+}
+.pazaruvane {
+position: relative;
+flex: 1;
+height: 50px;
+  }
+.profil {
+position: relative;
+flex: 1;
+height: 50px;
+}
+.kolichka {
+height: 30px;
+position: center;
+}
+
+.ikona {
+height: 30px;
+position: center;
+  }
+  
