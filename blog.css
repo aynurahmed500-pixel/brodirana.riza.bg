@@ -277,15 +277,38 @@ color:black;
   text-align: center;
 }
 
-#fact{
-  margin: 0;
-  text-align: center;
+.top-bar {
+  display: flex;
+  align-items: center;
 }
-* {
-  box-sizing: border-box;
+  
+.search-box {
+  flex: 6;
+  position: relative;
+}
+.lyubimi {
+  flex: 1;
+  position: relative;
+  font-size: 28px;
+  position: center;
+}
+.pazaruvane {
+position: relative;
+flex: 1;
+height: 50px;
+  }
+.profil {
+position: relative;
+flex: 1;
+height: 50px;
+}
+.kolichka {
+height: 30px;
+position: center;
 }
 
-body {
-  margin: 0;
-  padding: 0 10px;
+.ikona {
+height: 30px;
+position: center;
 }
+
