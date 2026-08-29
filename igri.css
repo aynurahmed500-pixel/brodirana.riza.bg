@@ -1,6 +1,4 @@
-*{
-  box-sizing:border-box;
-}
+
 
 img{
   width:100%;
@@ -442,15 +440,43 @@ nav {
   line-height: 1.5;
   transition: max-height 0.3s ease;
 }
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0;
-  padding: 0 10px;
-}
 .otgovor.show{
   max-height: 500px;
   padding: 10px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+}
+  
+.search-box {
+  flex: 6;
+  position: relative;
+}
+.lyubimi {
+  flex: 1;
+  position: relative;
+  font-size: 28px;
+  position: center;
+}
+.pazaruvane {
+position: relative;
+flex: 1;
+height: 50px;
+  }
+.profil {
+position: relative;
+flex: 1;
+height: 50px;
+}
+.kolichka {
+height: 30px;
+position: center;
+}
+
+.ikona {
+height: 30px;
+position: center;
 }
