@@ -367,12 +367,10 @@ li {
 .pazaruvane {
 position: relative;
 flex: 1;
-height: 50px;
   }
 .profil {
 position: relative;
 flex: 1;
-height: 50px;
 }
 .kolichka {
 height: 30px;
