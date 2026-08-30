@@ -363,7 +363,6 @@ li {
   flex: 1;
   position: relative;
   font-size: 28px;
-  position: center;
 }
 .pazaruvane {
 position: relative;
@@ -377,10 +376,12 @@ height: 50px;
 }
 .kolichka {
 height: 30px;
-position: center;
+position: absolute;
+transform:translate(-50%,-50%);
 }
 
 .ikona {
 height: 30px;
-position: center;
+position: absolute;
+transform:translate(-50%,-50%);
 }
