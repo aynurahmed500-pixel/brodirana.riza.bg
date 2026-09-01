@@ -376,11 +376,15 @@ flex: 1;
 .kolichka {
 height: 28px;
 position: absolute;
+top: 50%;
+left: 50%;
 transform:translate(-50%,-50%);
 }
 
 .ikona {
 height: 28px;
 position: absolute;
+top: 50%;
+left: 50%;
 transform:translate(-50%,-50%);
 }
