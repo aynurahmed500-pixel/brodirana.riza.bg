@@ -374,13 +374,13 @@ position: relative;
 flex: 1;
 }
 .kolichka {
-height: 30px;
+height: 28px;
 position: absolute;
 transform:translate(-50%,-50%);
 }
 
 .ikona {
-height: 30px;
+height: 28px;
 position: absolute;
 transform:translate(-50%,-50%);
 }
