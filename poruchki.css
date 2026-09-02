@@ -406,25 +406,28 @@ li {
   flex: 1;
   position: relative;
   font-size: 28px;
-  position: center;
 }
 .pazaruvane {
 position: relative;
 flex: 1;
-height: 50px;
   }
 .profil {
 position: relative;
 flex: 1;
-height: 50px;
 }
 .kolichka {
-height: 30px;
-position: center;
+height: 28px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
 }
 
-.ikona {
-height: 30px;
-position: center;
+.profil-snimka {
+height: 33px;
+width: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
 }
-
