@@ -211,71 +211,6 @@ p {
 .dolu h2{
   margin:0;
 }
-/* FON BACKGROUND - СТАБИЛЕН ВАРИАНТ */
-.fon {
-margin-top:100px;
-position: relative;
-background-image: url("https://imgur.com/GbWSo2I.jpeg");
-background-repeat: repeat;
-background-size: cover;
-}
-
-/* FACT BOX */
-.fact-box {
-  max-width: 800px;
-  padding: 40px;
-  border-radius: 25px;
-
-  text-align: center;
-  box-shadow: 0 0 25px rgba(255,255,255,0.1);
-}
-
-#fact {
-  font-size: 28px;
-  color:white;
-  line-height: 1.6;
-  margin-bottom: 30px;
-}
-
-.fact-box button {
-  padding: 15px 30px;
-  font-size: 18px;
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
-  font-family: "Times New Roman";
-  transition: 0.3s;
-  background: white;
-  color: black;
-}
-
-.fact-box button:hover {
-  transform: scale(1.05);
-color:black;
-}
-
-
-/* FIX за центриране на FACT секцията (добавка) */
-
-.fon{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.fact-box{
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  gap: 20px;
-  text-align: center;
-}
 
 .top-bar {
   display: flex;
@@ -290,25 +225,28 @@ color:black;
   flex: 1;
   position: relative;
   font-size: 28px;
-  position: center;
 }
 .pazaruvane {
 position: relative;
 flex: 1;
-height: 50px;
   }
 .profil {
 position: relative;
 flex: 1;
-height: 50px;
 }
 .kolichka {
-height: 30px;
-position: center;
+height: 28px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
 }
 
-.ikona {
-height: 30px;
-position: center;
+.profil-snimka {
+height: 33px;
+width: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%,-50%);
 }
-
