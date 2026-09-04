@@ -44,37 +44,7 @@ nav {
 }
 
 
-/*Заглавие на телефон*/
-@media (max-width:599px){
 
-.hero h1 {
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  margin:0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width:90%;
-  transform: translate(-50%,-50%);
-}
-}
-
-@media (min-width:600px){
-  .hero h1 {
- color: white;
-  font-size:85px;
-  font-weight:bold;
-  text-align:center;
-    margin:0;
-    position:absolute;
-    top:50%;
-    left:50%;
-    width:80%;
-    transform:translate(-50%,-50%);
-    }
-  }
 /*Меню на телефон*/
 
 
@@ -103,10 +73,9 @@ nav {
   }
 
   .menu-icon {
-    position: fixed;
-    top: 12px;
-    left: 15px;
-
+    position: relative;
+    position: center;
+    flex: 1;
     font-size: 28px;
     cursor: pointer;
 
