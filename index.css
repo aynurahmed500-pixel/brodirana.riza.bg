@@ -46,15 +46,12 @@ nav {
 }
 
 
-}
-
 /* =======================
    TOP BAR (mobile only)
 ======================= */
 @media (max-width: 599px) {
 
   .top-bar {
-    dispay: flex;
     position: fixed;
     top: 0;
     left: 0;
